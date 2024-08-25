@@ -1,9 +1,9 @@
-import { SignIn } from "@clerk/nextjs";
+import { SignUp } from "@clerk/nextjs";
 
 const Page = () => {
   return (
     <div className="flex-center glassmorphism-auth h-screen w-full">
-      <SignIn />
+      <SignUp />
     </div>
   );
 };
